@@ -1,0 +1,92 @@
+body{
+   margin: 0px;
+}
+
+.menu{
+   display: flex;
+   background-color: slateblue;
+   margin: 0px;
+   height: 80px;
+   align-items: center;
+   width: 100%;
+   
+}
+.logo{
+   width: 50px;
+   
+}
+
+.texto{
+   
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: white;
+   padding: 15px;
+}
+
+
+.link:first-of-type{
+   margin-left: auto;
+}
+
+.link{
+   padding: 10px;
+   text-decoration: none;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover{
+   background-color: cornflowerblue;
+}
+
+.secciones{
+   margin: 0px;
+   padding: 60px 0;
+  
+   width: 90%;
+
+}
+
+
+
+.avion{
+   height: 500px;
+   width: 500px;
+   display: block;
+   margin: auto;
+}
+
+.titulo{
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
+   font-size: 50px;
+}
+
+.Vuelo{
+   background-color: slateblue;
+   color: white;
+   text-decoration: none;
+   padding: 1em 3em;
+   border-radius: 2em;
+   margin-left: 45%;
+}
+
+.section{
+   display: flex;
+   width: 600px;
+   height: 450px;
+}
+.destino{
+   width: 0px;
+   flex-grow: 1;
+   object-fit: cover;
+   opacity: .8;
+   transition: .5s ease;
+}
+.destino:hover{
+   cursor: crosshair;
+   width: 600px;
+   opacity: 1;
+   filter: contrast(120%);
+}
